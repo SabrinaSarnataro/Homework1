@@ -18,7 +18,7 @@ $ros2 topic pub JointPositionController/commands std_msgs/msg/Float64MultiArray 
 -We have added a record of the robot changing its configuration. To rewatch the record,unzip the "bag_files" folder and write on terminal this command:
 $ros2 launch arm_gazebo arm_gazebo.launch.py
 and on another terminal, we write:
-$cd src/bag_files/rosbag2_2024_10_29-20_18_22
+$cd src/Homework1/bag_files/rosbag2_2024_10_29-20_18_22
 $ros2 bag play rosbag2_2024_10_29-20_18_22_0.db3
 
 
